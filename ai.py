@@ -1,10 +1,8 @@
 import openai
 
-
+# Get secret key @ beta.openai.com
 # Authenticate with the OpenAI API
 secrets = input("Enter secret: ")
-print(secrets)
-
 
 openai.api_key = secrets
 
